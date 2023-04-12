@@ -1,0 +1,46 @@
+nav ul{
+  display: flex;
+  align-items: center;
+  
+}
+.cont{
+  /*width: 30%;*/
+  /*background-color: aqua;*/
+  /*background-color: #d1ffff;
+  margin:4px;*/
+  width: 30%;
+    background-color: whitesmoke;
+  
+    border: 2px solid #484040;
+}
+.player-item{
+  height: fit-content;
+}
+.modal{
+  height: 100vh;
+  width: 100vw;
+};
+.modal-content{
+  width: 100%;
+  height: 90vh;
+}
+
+body{
+  min-height: 100vh;
+  background-color: #32404054;
+}
+
+.player-item{
+
+  max-width: 30%;
+  background-color:whitesmoke;
+ 
+    border: 2px solid #484040;
+
+}
+
+@media (max-width:600px) {
+  .player-item{
+    max-width: 80%;
+  }
+}
